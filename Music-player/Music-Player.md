@@ -44,13 +44,13 @@ The system combines intuitive sensors with an **ESP32 microcontroller**, enablin
 
 ```mermaid
 graph TD
-    Start[Start System] --> Touch[Touch Sensor Trigger]
-    Start --> Conductive[Conductive Sensor Trigger]
-    Touch --> Melody[Play Melody: Happy Birthday]
+    Start["Start System"] --> Touch["Touch Sensor Trigger"]
+    Start --> Conductive["Conductive Sensor Trigger"]
+    Touch --> Melody["Play Melody: Happy Birthday"]
     Conductive --> Melody
-    Melody --> LDR[Adjust Note Duration (LDR)]
-    LDR --> Speaker[Output Sound via Speaker]
-    Speaker --> End[End]
+    Melody --> LDR["Adjust Note Duration"]
+    LDR --> Speaker["Output Sound via Speaker"]
+    Speaker --> End["End"]
 ```
 
 ---
@@ -67,7 +67,7 @@ Watch our **Digi-Physi Musical Instrument** in action here:
 Below is an example of generating tones using the ESP32 and controlling note duration with the LDR:
 
 ```cpp
-ivoid loop() {
+void loop() {
   int touch_read_val = analogRead(TOUCH_SENSOR_PIN);
   int conduct_read_val = touchRead(CONDUCTIVE_SENSOR_PIN);
 
