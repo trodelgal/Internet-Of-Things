@@ -1,18 +1,8 @@
-# Internet of Things (IoT) Course - Introduction
+# Internet of Things (IoT) Course
 
 ## Course Overview
 
-In recent years, the field of **Internet of Things (IoT)** has rapidly grown and is becoming a dominant force in modern computing. The expectation is that soon, most network traffic will not come from computers but from **connected objects** and devices, fundamentally reshaping the structure of the internet.
-
-While the full potential of this revolution is still ahead of us, it is already influencing key areas of life such as:
-
-- **Economy**
-- **Society**
-- **Industry**
-- **Commerce**
-- **Personal Lifestyle**
-
-In this course, we explored the **technological principles** behind connecting a new generation of devices to the internet and practiced developing them step by step:
+In this course, I explored the **technological principles** behind connecting a new generation of devices to the internet and practiced developing them step by step:
 
 1. **Building and programming objects** using microcontrollers, particularly from the Arduino and ESP32 families.
 2. **Working with lightweight and dynamic network protocols** designed for IoT applications.
